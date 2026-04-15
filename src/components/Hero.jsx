@@ -58,7 +58,7 @@ function Hero() {
               <div className="avatar-wrap">
               
                 <div className="avatar-fallback">  <img
-                  src="./public/images/MH.JPG"
+                  src="/images/MH.JPG"
                   alt="Mohamed Hannaoui"
                   onError={e => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex' }}
                 /></div>
